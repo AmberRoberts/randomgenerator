@@ -1,0 +1,67 @@
+
+h1 {
+  font-size: 4em;
+  font-variant: small-caps;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  color: #fea739;
+  background-color: #3a4658;
+  font-family: Helvetica, sans-serif;
+  font-weight: bolder;
+  border: 5px outset #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  height: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+button {
+    padding: 20px;
+    width: 250px;
+    background-color: #fea739;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    color: #363636;
+    border-style: hidden;
+    cursor: pointer;
+}
+
+button:hover {
+  background-color: #fea739c7;
+}
+
+#bizName {
+  font-size: 64px;
+  font-variant:small-caps;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.buttonSpace {
+  padding: 20px;
+}
+
+.intro {
+  padding: 20px;
+  font-weight: normal;
+}
+
+.credit {
+      font-size: 11px;
+      color: #9ca5b4;
+      bottom: 0;
+      left: 25%;
+      right: 25%;
+      position: absolute;
+    }
